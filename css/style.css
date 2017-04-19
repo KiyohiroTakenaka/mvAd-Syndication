@@ -1,0 +1,351 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background-color:azure;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+
+}
+
+body {
+    line-height: 16px;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+       
+}
+
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color:black;
+}
+
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*customer header footer*/
+
+.customer-head{
+     min-width:1280px;
+     background-color:gray;
+     height:207px;
+}
+
+.customer-footer{
+    min-width:1280px;
+    background-color:gray;
+    min-height:100px;
+}
+
+
+/*mvAd contents*/
+
+.mvAd-section {
+   
+}
+
+.mvAd-container{
+    display: flex;
+    flex-direction:row;
+
+    margin : 0 auto;
+    width:980px;
+}
+
+.mvAd-left-container{
+     width:700px;
+     min-height: 1800px;
+
+}
+
+.mvAd-media{
+    width: 675px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-content:stretch;
+    align-items:stretch;
+    align-content:flex-start;
+    list-style: none;
+}
+
+
+.mvAd-media-content{
+ border :1px solid lightgray;
+ width: 200px;
+ font-size: 13px;
+ margin-top: -10px 4px 8px 8px;
+ padding: 8px;
+ height: 110px;
+
+}
+
+.mvAd-media-picture{
+width: 220px;
+height:220px;
+margin:8px 4px 4px 0px;
+object-fit: contain;
+background-color: #ccc;
+}
+
+.mvAd-media-box{
+height: 350px;
+width:220px;
+margin-left:4px;
+}
+
+#mvAd-media-head{
+height: 40px;
+color: #333333;
+font-size:16px;
+}
+.active{
+	background-color: darkgray;
+    color: snow;
+}
+
+.mvAd-media-offer{
+    margin-left:0px;
+    margin-top:8px;
+    margin-bottom: 16px;
+    color: #828282;
+}
+
+.mvAd-box-tag{
+    height: 30px;
+
+}
+
+.mvAd-tag{
+    border-radius: 4px;
+    background-color:lightgray; white-space: nowrap;
+    margin:4px;
+    padding: 6px 12px;
+}
+
+.mvAd-tag:hover{
+    background-color:gray;
+    color: white;
+    
+}
+
+.mvAd-right-container{
+     width:300px;
+     min-height: 1800px;
+     background-color:snow;
+}
+
+.mvAd-list-box{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 40px auto 0; 
+    width:280px;
+    height:560px;
+    border :1px solid lightgray;
+}
+
+.mvAd-list{
+   width: 265px;
+   height: 80px;
+   display:flex;
+   position:relative;
+   flex-direction:row; 
+   margin-left: 18px;
+   margin-top: 6px;
+   margin-bottom: 6px;
+}
+
+#mvAd-list-caption{
+    font-size:16px;
+    font-weight: 600;
+    color:#555;
+    margin: 15px 15px 10px;
+}
+
+#mvAd-list-more{
+    font-size:12px;
+    color:#555;
+    margin: auto;
+}
+
+.mvAd-list-picture{ 
+    background-color: black;
+    width:80px;
+    height:80px; 
+    margin: 0px; 
+    object-fit: cover;
+    background-color: #ccc;
+}
+
+.mvAd-list-content{
+    display: flex;
+    flex-direction:column;
+    width:185px;
+    height:20px; 
+    color:#555;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.mvAd-ranking-number{
+    display:block;
+    position:absolute;
+    border-radius: 50%;
+    background-color: red;
+    color: snow;
+    width: 25px;
+    height: 25px;
+    top: -10px; 
+    left: -10px;  
+    z-index: 9999;
+    text-align: center;
+}
+
+
+.mvAd-list-offer{
+    color:#555;
+}
+
+#mvAd-pager{
+margin-top:30px;
+margin-bottom:30px;
+display:block;
+text-align: center;
+}
+
+.mvAd-pager-num{
+	  cursor: pointer;
+		display:inline-block;
+		border: 1px gray solid;
+		width: 32px;
+		height: 32px;
+		margin: 5px;
+		font-size:14px;
+        font-weight: 400;
+		text-align: center;
+		color: gray;
+		line-height: 150%;
+        padding-top: 8px;
+}
+
+.mvAd-pager-num:hover{
+    background-color:gray;
+    color: white;
+}
+
+.swiper-container {
+    width:675px;
+    height:400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.swiper-slide{
+  position:relative;  
+}
+
+.swiper-title {
+   position: absolute;  
+   bottom:0px; 
+   left: 0px;
+   width: 100%;
+   padding:15px 10px;
+   color: #ffffff;
+   background: #000000;
+   opacity: 0.6; 
+   font-size: 14px;   
+}
+.swiper-image {
+    object-fit: cover;
+    width: 675px;
+    height: 400px;
+}
